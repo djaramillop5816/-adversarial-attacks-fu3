@@ -1,0 +1,71 @@
+{
+  "target": "ostrich",
+  "target_index": 9,
+  "original_prediction": "golden_retriever",
+  "saved_prediction": "ostrich",
+  "targeted_success_after_reload": true,
+  "prediction_changed_after_reload": true,
+  "target_probability": 0.6641926765441895,
+  "l2": 0.8880859306553891,
+  "rms": 0.0022890029940754175,
+  "linf": 0.039215683937072754,
+  "pixel_scale": "RGB [0,1]",
+  "source": "https://upload.wikimedia.org/wikipedia/commons/b/bd/Golden_Retriever_Dukedestiny01_drvd.jpg",
+  "tensorflow": "2.21.0",
+  "scipy": "1.16.3",
+  "c_values": [
+    10.0,
+    1.0,
+    0.1,
+    0.01,
+    0.001
+  ],
+  "maxiter": 100,
+  "optimizer_runs": [
+    {
+      "c": 10.0,
+      "iterations": 100,
+      "evaluations": 104,
+      "optimizer_converged": false,
+      "message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+      "final_target_success": true,
+      "best_png_l2_so_far": null
+    },
+    {
+      "c": 1.0,
+      "iterations": 100,
+      "evaluations": 128,
+      "optimizer_converged": false,
+      "message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+      "final_target_success": true,
+      "best_png_l2_so_far": 0.8880859306553891
+    },
+    {
+      "c": 0.1,
+      "iterations": 100,
+      "evaluations": 151,
+      "optimizer_converged": false,
+      "message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+      "final_target_success": true,
+      "best_png_l2_so_far": 0.8880859306553891
+    },
+    {
+      "c": 0.01,
+      "iterations": 100,
+      "evaluations": 236,
+      "optimizer_converged": false,
+      "message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+      "final_target_success": true,
+      "best_png_l2_so_far": 0.8880859306553891
+    },
+    {
+      "c": 0.001,
+      "iterations": 100,
+      "evaluations": 182,
+      "optimizer_converged": false,
+      "message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+      "final_target_success": true,
+      "best_png_l2_so_far": 0.8880859306553891
+    }
+  ]
+}
